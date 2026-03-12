@@ -1,13 +1,13 @@
 
 # 🎵 Spotify Music Clustering & Pattern Discovery (CS-4412 M3)
 
-This repository contains the **M3: Complete Implementation** for the CS-4412 Data Mining project.  
+This repository contains the **M3: Complete Implementation** for the CS-4412 Data Mining project.
 It demonstrates a full end-to-end pipeline for **Spotify track analysis**, expanding beyond M2 with clustering, classification, dimensionality reduction, and anomaly detection.
 
 ---
 
 ## 📌 Project Overview
-- **Dataset**: ~10,000 simulated Spotify tracks (with duplicates and ratio outliers).
+- **Dataset**: ~8,947 tracks 19 features simulated Spotify tracks (with duplicates and ratio outliers).
 - **Goal**: Discover meaningful musical patterns, clusters, and anomalies.
 - **Expansion**: Implements multiple techniques beyond M2, with validation and interpretation.
 
@@ -92,24 +92,25 @@ It demonstrates a full end-to-end pipeline for **Spotify track analysis**, expan
 - Anomaly Detection: Local Outlier Factor (scikit-learn)
 - Visualization: Matplotlib, Seaborn
 - Data Handling: Pandas, NumPy
-  
+
 🎯 Deliverables- End-to-end pipeline (data → results).
 - Analytical expansion beyond M2.
 - Substantial results with interpretation.
 - Visualizations connecting findings to discovery questions.
-  
+
 📖 References- Zaki & Meira, Data Mining and Machine Learning
 - Aggarwal, Outlier Analysis
 - Scikit-learn Documentation
 - PyOD Documentation
-  
+
 ## 📊 Visualization Results
 
 Below are the key outputs generated from the Spotify clustering pipeline.
 
 ### Clustering & Analysis Output
 
-![Spotify Clustering Results](spotify_results.png)
+![Spotify Clustering Results](silhouette_plot.png) ![Spotify Clustering Results](davies_bouldin_plot.png)
+![Spotify Clustering Results](cluster_pca_plot.png)
 
 The visualization summarizes:
 
